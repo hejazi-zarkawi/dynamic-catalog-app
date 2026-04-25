@@ -1,16 +1,79 @@
-# React + Vite
+# 🛍️ Dynamic Multi-Category Catalog
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Live Demo
 
-Currently, two official plugins are available:
+👉 (https://dynamic-catalog-app.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 📌 Overview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This is a responsive web application that dynamically renders a multi-category product catalog using a structured JSON dataset.
 
-## Expanding the ESLint configuration
+The application displays categorized items on the home page and provides a detailed view for each item with dynamically rendered properties.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠 Tech Stack
+
+* React (Vite)
+* React Router
+* CSS (Custom - Mobile First)
+
+---
+
+## ✨ Features
+
+* 📦 Category-wise product listing
+* 🔄 Dynamic rendering using `itemprops`
+* 📱 Fully responsive (mobile, tablet, desktop)
+* 🧩 Reusable component architecture
+* 🔗 Navigation to item detail page
+* 🖼️ Consistent image aspect ratio handling
+* ⚠️ Fallback for broken images
+
+---
+
+## 🧠 Key Implementation Details
+
+* Data grouped dynamically using `reduce()`
+* No hardcoded fields — fully scalable UI
+* Mobile-first responsive design
+* Flexbox-based layout for consistency
+* Clean separation of components
+
+---
+
+## 📂 Folder Structure
+
+```
+src/
+ ├── components/
+ ├── pages/
+ ├── data/
+ ├── styles/
+```
+
+---
+
+## ▶️ How to Run Locally
+
+```bash
+npm install
+npm run dev
+```
+
+---
+
+## 📌 Future Improvements
+
+* 🔍 Search & filtering
+* 📊 Sorting options
+* 🌐 API integration instead of static JSON
+* ⭐ Favorites / Wishlist
+
+---
+
+## 👨‍💻 Author
+
+Mohammad Umar Al Hejazi
